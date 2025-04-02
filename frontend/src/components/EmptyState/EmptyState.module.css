@@ -1,0 +1,41 @@
+.emptyState {
+    text-align: center;
+    grid-column: 1 / -1;
+    padding: 3rem 0;
+  }
+  
+  .emptyIllustration {
+    max-width: 300px;
+    margin-bottom: 1.5rem;
+    opacity: 0.8;
+  }
+  
+  .title {
+    color: #545454;
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+  }
+  
+  .description {
+    color: #BD9E89;
+    margin-bottom: 1.5rem;
+  }
+  
+  .actionButton {
+    background-color: #BD9E89;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .actionButton:hover {
+    background-color: #9c8270;
+    transform: translateY(-1px);
+  }

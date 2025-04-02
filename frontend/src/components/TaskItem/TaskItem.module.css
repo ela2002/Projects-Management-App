@@ -1,0 +1,112 @@
+.taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+  }
+  
+  .taskItem:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  }
+  
+  .taskItem.completed {
+    opacity: 0.8;
+    background-color: #f9f9f9;
+  }
+  
+  .taskContent {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex: 1;
+    min-width: 0; /* Allows text truncation */
+  }
+  
+  .checkbox {
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 2px solid #BD9E89;
+    border-radius: 4px;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    flex-shrink: 0;
+  }
+  
+  .checkbox:hover:not(:disabled) {
+    border-color: #9c8270;
+  }
+  
+  .checkbox.checked {
+    background-color: #BD9E89;
+    border-color: #BD9E89;
+  }
+  
+  .checkbox:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  .checkIcon {
+    color: white;
+    font-size: 0.75rem;
+  }
+  
+  .taskName {
+    color: #333;
+    word-break: break-word;
+  }
+  
+  .taskItem.completed .taskName {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .taskActions {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 1rem;
+  }
+  
+  .editButton,
+  .deleteButton {
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .editButton {
+    color: #BD9E89;
+  }
+  
+  .editButton:hover:not(:disabled) {
+    background-color: rgba(189, 158, 137, 0.1);
+  }
+  
+  .deleteButton {
+    color: #e74c3c;
+  }
+  
+  .deleteButton:hover:not(:disabled) {
+    background-color: rgba(231, 76, 60, 0.1);
+  }
+  
+  .editButton:disabled,
+  .deleteButton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }

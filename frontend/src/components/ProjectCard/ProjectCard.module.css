@@ -1,0 +1,113 @@
+.projectCard {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E4C9B2;
+  }
+  
+  .projectCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+  
+  .priorityBadge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  
+  .priorityBadge.low {
+    background-color: #E4C9B2;
+    color: #545454;
+  }
+  
+  .priorityBadge.medium {
+    background-color: #BD9E89;
+    color: white;
+  }
+  
+  .priorityBadge.high {
+    background-color: #f56565;
+    color: white;
+  }
+  
+  .cardActions {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .iconButton {
+    background: none;
+    border: none;
+    color: #545454;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: all 0.2s;
+  }
+  
+  .iconButton:hover {
+    background-color: rgba(189, 158, 137, 0.1);
+    color: #BD9E89;
+  }
+  
+  .projectTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #545454;
+    margin: 0 0 0.75rem 0;
+  }
+  
+  .projectDescription {
+    color: #BD9E89;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+  }
+  
+  .cardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-top: 1rem;
+    border-top: 1px dashed #E4C9B2;
+  }
+  
+  .dueDate {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: #545454;
+  }
+  
+  .viewButton {
+    background: none;
+    border: none;
+    color: #BD9E89;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    transition: all 0.2s;
+  }
+  
+  .viewButton:hover {
+    color: #9c8270;
+  }
