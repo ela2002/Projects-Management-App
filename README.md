@@ -1,13 +1,13 @@
 # 📁 Project Manager App
 
-Une application web moderne de gestion de projets et tâches, développée avec **React (Vite)** pour le frontend, **NestJS** pour le backend, et **Firebase** pour le stockage des données.  
-Elle permet la **création, suppression et visualisation** de projets et de leurs tâches.
+A modern web application for managing projects and tasks, built with **React (Vite)** for the frontend, **NestJS** for the backend, and **Firebase** for data storage.  
+It allows for **creating, updating, deleting, and viewing** projects and their associated tasks.
 
-## 🔧 Fonctionnalités
+## 🔧 Features
 
-- Création et suppression de projets
-- Ajout et suppression de tâches pour chaque projet
-- Interface moderne et attractive avec CSS Modules
+- Create, edit and delete projects  
+- Add, update and remove tasks for each project  
+- Modern and attractive interface using CSS Modules
 
 ## 🛠️ Technologies
 
@@ -15,11 +15,3 @@ Elle permet la **création, suppression et visualisation** de projets et de leur
 - NestJS
 - Firebase (Auth + Firestore)
 - CSS Modules
-
-## ▶️ Installation
-
-### 1. Cloner le projet
-
-```bash
-git clone https://github.com/ton-utilisateur/project-manager-app.git
-cd project-manager-app
